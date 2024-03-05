@@ -1,5 +1,9 @@
 import java.util.Arrays;
 
+
+//The sequentialSearch() method in your code is an example of a 
+//linear search algorithm. In terms of Big O notation, 
+//linear search has a time complexity of O(n), where n is the number of elements in the array.
 public class Searches {
     public static void main(String[] args) {
         // create an array
