@@ -1,26 +1,27 @@
 package Dataexample;
-
-import java.util.*;
-
+import java.util.Queue;
+import java.util.LinkedList;
+import java.util.NoSuchElementException;
 public class coffeeShop{
  public static void main(String[] args) {
-  Queue<String> coffeeShop = new LinkedList<>();
-  coffeeShop.add("Sally");
-  coffeeShop.add("Debra");
-  coffeeShop.add("Jimmy");
-  coffeeShop.add("Cindy");
-  System.out.println(coffeeShop.peek());
-  coffeeShop.remove();
-  coffeeShop.remove();
-  System.out.println(coffeeShop.element()); 
-  coffeeShop.remove();
-  coffeeShop.poll();
+Queue<String> coffeeShop = new LinkedList<>();
+coffeeShop.add("Sally");
+
+coffeeShop.add("Debra");
+coffeeShop.add("Jimmy");
+coffeeShop.add("Cindy");
+System.out.println(coffeeShop.peek());
+coffeeShop.remove();
+coffeeShop.remove();
+System.out.println(coffeeShop.element()); 
+coffeeShop.remove();
+coffeeShop.poll();
   
-  try {
-   coffeeShop.remove();
-  } catch(NoSuchElementException e) {
-   System.out.println("Oops! It doesn't exist!");
-  }
+try {
+    coffeeShop.remove();
+} catch(NoSuchElementException e) {
+    System.out.println("Oops! It doesn't exist!");
+}
  }
 }
 
