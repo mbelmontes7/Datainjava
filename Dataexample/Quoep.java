@@ -22,3 +22,4 @@ public class Quoep {
         System.out.println(myPriorityQueue); // Move this statement inside the main method
     }
 } // Remove the extra closing brace
+//the keys and values are not printed in the order they were added.
