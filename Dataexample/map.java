@@ -22,7 +22,7 @@ public class map { // Add missing class declaration
         System.out.println(arrayCars.get("Honda"));
         System.out.println(arrayCars.containsValue(10)); 
 
-        if (arrayCars.containsKey("Honda")) {
+        if (arrayCars.containsKey("Honda")) { 
             System.out.println(arrayCars.containsKey("Honda")); //containsKey is a method that checks if the key is in the array
         }
 
